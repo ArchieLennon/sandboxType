@@ -1,0 +1,136 @@
+
+ @font-face {
+   font-family: "FKBold" ;
+   src: url(web/FKGrotesk-Bold.woff2);
+}
+@font-face {
+   font-family: FKmono ;
+   src: url(web/FKGrotesk-Monospaced.woff2) format("woff2");
+}
+@font-face {
+   font-family: FKReg ;
+   src: url(web/FKGrotesk-Regular.woff2) format("woff2");
+}
+
+
+html, body {
+   margin: 0;
+   padding: 0;
+ }
+ canvas {
+   display: block;
+ }
+
+
+header{
+  
+    position: fixed;
+    top: 64px;
+    left: 64px;
+    font-family: FKBold;
+    font-size: 60px;
+    font-weight: 100;
+ color: aliceblue;
+  
+  }
+
+
+  button{
+   position: fixed;
+
+   bottom: 105px;
+   left: 95px;
+   font-family: FKBold;
+   font-size: 20px;
+   font-weight: 100;
+   color: aliceblue;
+   background-color:transparent ;
+   border:transparent ;
+
+  }
+
+  
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    margin: -30px 0;
+    width: 10%; 
+   }
+   input[type="range"]:focus {
+    outline: none;
+   }
+   input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 30px;
+   }
+   input[type="range"]::-webkit-slider-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+   }
+   input[type="range"]:focus::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 30px;
+   }
+   
+
+
+
+
+
+
+  .slider-container {
+   position: relative;
+   z-index: 10;
+   margin-top: -50px;
+   margin-left: 64px;
+   color: aliceblue;
+   background-color:transparent ;
+   border:transparent ;
+  
+ }
+  
+ .slider-container2 {
+     position: relative;
+   z-index: 10;
+   margin-top: -22px;
+   margin-left: 800px;
+   color: aliceblue;
+   
+ }
+
+ p {
+  position: fixed;
+  bottom: 5px;
+  left: 64px;
+  font-family: FKBold;
+  font-size: 60px;
+  font-weight: 100;
+  color: aliceblue;
+  z-index: 10;
+
+
+ }
+
+  footer{
+   
+   position: fixed;
+   bottom: 64px;
+   left: 100px;
+   font-family: FKReg;
+   font-size: 13px;
+   font-weight: 100;
+   color: aliceblue;
+   columns: 3;
+ }
